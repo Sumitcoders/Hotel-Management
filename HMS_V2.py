@@ -1,14 +1,3 @@
-'''
-Admin Login
-Customer Login
-Room Management
-Room Reservation
-Food management
-billing
-feedback
-hotel details
-logs
-'''
 from datetime import datetime
 import mysql.connector as sql
 from tabulate import tabulate
@@ -20,10 +9,11 @@ try:
         host="localhost",
         port=3306,
         user="root",
-        password="hahqymol",
+        password="your sql password",
         database='Hotel_Celestial',
-        auth_plugin='mysql_native_password'
-        )
+        auth_plugin='mysql_native_password' #only use this line if you are
+        )                                   #using mysql.connector instead of 
+	                                        #mysql.connector.python
 
 
     #Creating Cursor
