@@ -298,7 +298,7 @@ try:
                             input("Press 'Enter' to continue... ")
                         else:
                             print(line3)
-                            print(f"Hall Number in not booked on {date}")
+                            print(f"Hall Number {h_no} is not booked on {date}")
                             print(line3)
                             input("Press 'Enter' to continue...")
                     elif ch == 8:
