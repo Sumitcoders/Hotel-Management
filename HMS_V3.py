@@ -434,7 +434,7 @@ try:
                     c_in2_cid = cur.fetchone()[0]
                     
                     
-                    #checking fro empty log
+                    #checking for empty log
                     cur.execute("select log_id from logs")
                     l_id = cur.fetchall()
                     if l_id == []:
