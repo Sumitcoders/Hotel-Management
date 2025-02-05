@@ -329,7 +329,7 @@ try:
                                     print(line2)
                                     print("Operation failed!")
                                     print("Password is not matching in both fields")
-                                    peint(line2)
+                                    print(line2)
                             
                             else:
                                 print(line1)
