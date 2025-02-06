@@ -11,7 +11,7 @@ try:
         user="root",
         password="your_Sql_Password",
         database='Hotel_Celestial',
-        auth_plugin='mysql_native_password' #only use this line if your 
+        auth_plugin='mysql_native_password' #only use this line in your code if your 
         )                                   #using mysql-connector instead of 
                                             #mysql-connector-python
 
