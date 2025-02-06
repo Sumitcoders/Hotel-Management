@@ -9,11 +9,11 @@ try:
         host="localhost",
         port=3306,
         user="root",
-        password="hahqymol",
+        password="your_Sql_Password",
         database='Hotel_Celestial',
-        auth_plugin='mysql_native_password'
-        )
-
+        auth_plugin='mysql_native_password' #only use this line if your 
+        )                                   #using mysql-connector instead of 
+                                            #mysql-connector-python
 
     #Creating Cursor
 
